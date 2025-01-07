@@ -20,11 +20,11 @@ public:
     advance();
     variables["name"] = "Project1";
     variables["version"] = "2.5.1";
-    variables["libs"] = "window system graphics audio networking";
+    variables["libs"] = "window system graphics audio network";
     variables["cxxs"] = "11";
     variables["cxxsr"] = "True";
     variables["link"] =
-        "sfml-window sfml-system sfml-graphics sfml-audio sfml-networking";
+        "sfml-window sfml-system sfml-graphics sfml-audio sfml-network";
   }
 
   void advance() {
